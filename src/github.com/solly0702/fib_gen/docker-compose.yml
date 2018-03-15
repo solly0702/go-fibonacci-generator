@@ -1,0 +1,17 @@
+# docker-compose up -d
+version: '2'
+services: 
+    microservice:
+        build: .
+        image: fib_gen:1.0.1-alpine
+        environment: 
+        - PORT=5005
+        ports: 
+        - "5005:5005"
+        
+    nginx:
+        image: "nginx:1.12"
+        ports: 
+        - "8080:80"
+        links: 
+        - microservice

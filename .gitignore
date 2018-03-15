@@ -1,0 +1,43 @@
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### OS X Files ###
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.lnk
+*~
+
+### Go Specific ###
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+### ignore package ###
+/bin
+src/github.com/acroca/go-symbols
+src/github.com/golang/lint
+src/github.com/nsf/gocode
+src/github.com/ramya-rao-a/go-outline
+src/github.com/rogpeppe/godef
+src/github.com/sqs/goreturns
+src/github.com/stretchr/testify
+src/github.com/uudashr/gopkgs
+src/golang.org/x/lint
+src/golang.org/x/tools
+src/sourcegraph.com/sqs/goreturns
+src/github.com/MichaelTJones/walk
