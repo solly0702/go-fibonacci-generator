@@ -23,11 +23,12 @@
 -> go test ./test -v
 ```
 
-#### api only provide POST method
+#### api only provide GET and POST method
 
 ```
--> api entry: localhost:5005/api/fib-gen
--> api field: fib_max_num
+-> api GET entry: localhost:5005/api/fib-gen?fib_sequence={param}
+-> api POST entry: localhost:5005/api/fib-gen
+-> api POST field: fib_max_num
 ```
 
 #### Deactive Server and Remove Container
