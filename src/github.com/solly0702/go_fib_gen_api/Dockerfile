@@ -11,8 +11,7 @@
 # ENTRYPOINT /app/fib_gen
 
 
-### HEAVY IMANGE? 
-# docker build -t golang_fib_gen:1.0.0-alpine .
+### HEAVY IMANGE? doc
 FROM golang:1.10-alpine
 LABEL Sol Lee
 
@@ -25,4 +24,4 @@ WORKDIR ${SOURCES}
 RUN cd ${SOURCES} && CGO_ENABLED=0 go install
 EXPOSE 5005
 
-ENTRYPOINT fib_gen
+ENTRYPOINT go_fib_gen_api
