@@ -22,8 +22,6 @@ ENV PORT 5005
 COPY . ${SOURCES}
 WORKDIR ${SOURCES}
 
-RUN go get -v github.com/stretchr/testify/assert
-
 RUN cd ${SOURCES} && CGO_ENABLED=0 go install
 EXPOSE 5005
 

@@ -11,6 +11,7 @@
 ### Deployment
 
 ```
+-> cd go-fibonacci-generator
 -> source gopath.sh
 -> docker build -t go_fib_gen_api:1.0.0-alpine .
 -> docker-compose up -d
