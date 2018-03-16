@@ -21,6 +21,7 @@ Thumbs.db
 *.so
 *.dylib
 
+
 # Test binary, build with `go test -c`
 *.test
 
@@ -29,15 +30,15 @@ Thumbs.db
 
 ### ignore package ###
 /bin
-src/github.com/acroca/go-symbols
-src/github.com/golang/lint
-src/github.com/nsf/gocode
-src/github.com/ramya-rao-a/go-outline
-src/github.com/rogpeppe/godef
-src/github.com/sqs/goreturns
-src/github.com/stretchr/testify
-src/github.com/uudashr/gopkgs
-src/golang.org/x/lint
-src/golang.org/x/tools
-src/sourcegraph.com/sqs/goreturns
-src/github.com/MichaelTJones/walk
+src/github.com/acroca
+src/github.com/golang
+src/github.com/nsf
+src/github.com/ramya-rao-a
+src/github.com/rogpeppe
+src/github.com/sqs
+src/github.com/stretchr
+src/github.com/uudashr
+src/golang.org
+src/sourcegraph.com
+src/github.com/MichaelTJones
+src/github.com/solly0702/go_fib_gen_api/go_fib_gen_api
